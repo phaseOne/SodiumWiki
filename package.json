@@ -1,0 +1,24 @@
+{
+    "name": "SodiumWiki",
+    "version": "0.1.0",
+    "description": "A lightweight, Node.js, based wiki that utilizes Markdown for editing.",
+    "author": "Evan Bovie <evan@bovie.me>",
+    "maintainers": [
+        { "name": "Evan Bovie", "email": "evan@bovie.me", "web": "http://phaseone.me" }
+    ],
+    "contributors": [
+        { "name": "Evan Bovie", "email": "evan@bovie.me", "web": "http://phaseone.me" }
+    ],
+    "bugs": { "url": "https://github.com/phaseOne/SodiumWiki/issues" },
+    "licenses": [
+        { "type": "EPL", "url": "http://www.opensource.org/licenses/eclipse-1.0.php" }
+    ],
+    "repository" : { "type" : "git", "url" : "git://github.com/phaseOne/SodiumWiki.git" },
+    "dependencies": {
+        "express": ">= 2.5.9",
+        "jade": ">= 0.22.1",
+        "stylus": ">= 0.25.0"
+    },
+    "keywords": ["express", "wiki", "markdown"],
+    "engines" : { "node":">= 0.7.0 < 0.7.7" }
+}
